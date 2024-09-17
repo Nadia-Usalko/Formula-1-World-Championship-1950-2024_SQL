@@ -7,7 +7,7 @@ _Acknowledgements: The data is compiled from http://ergast.com/mrd/_
 
 _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data_
 
-Let's analyze this dataset 
+Let's analyze this dataset. We all heard of the drivers who made history in F1, how many victories they actually had?
 
 ```
 SELECT results.driverId,
