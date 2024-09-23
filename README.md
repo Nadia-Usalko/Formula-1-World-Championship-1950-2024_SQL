@@ -15,6 +15,23 @@ _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-wo
 
 
 ### 
+
+F1 races are taking place worldwide, let's see how many races took place by country, and which country was lucky to host the highest amount of races?
+
+```ruby
+SELECT  COUNT (DISTINCT(raceId)) AS 'total_races',
+	country
+FROM races
+JOIN circuits
+	ON races.circuitId = circuits.circuitId
+GROUP BY country
+ORDER BY total_races DESC
+```
+
+That's impressive - 107 times F1 world championship took place in Italy, and only once in Marocco.
+
+[HERE](https://public.tableau.com/app/profile/nadezhda.usalko/viz/F1RussianGP/TotalF1RacesbyCountry1950-2024) is a link to Tableau Dashboard.
+
 We all heard of the drivers who made history in F1, how many victories they actually had?
 
 ```ruby
@@ -109,6 +126,8 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/00785a40-1cb5-4aea-82d9-f33a8922bdc0)
 
+![image](https://github.com/user-attachments/assets/19233d84-6cf8-4987-9675-10f51b1f4013)
+
 
 Data can tell us a lot of stories and I hope my research was interesting. 
-Feel free to [follow me on Linked-In](https://www.linkedin.com/in/Nadia-usalko/).
+Feel free to [follow me on Linked-In](https://www.linkedin.com/in/Nadia-usalko/) and check [my Tableau profile](https://public.tableau.com/app/profile/nadezhda.usalko/vizzes).
