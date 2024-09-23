@@ -7,6 +7,12 @@ _Acknowledgements: The data is compiled from http://ergast.com/mrd/_
 
 _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data_
 
+*To complete this project I worked in:*
+
+-DB Browser for SQLite
+
+-Tableau Public
+
 
 ### 
 We all heard of the drivers who made history in F1, how many victories they actually had?
