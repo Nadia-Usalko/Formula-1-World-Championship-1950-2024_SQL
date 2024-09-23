@@ -14,9 +14,8 @@ _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-wo
 -Tableau Public
 
 
-### 
 
-F1 races are taking place worldwide, let's see how many races took place by country, and which country was lucky to host the highest amount of races?
+1. F1 races are taking place worldwide, let's see how many races took place by country, and which country was lucky to host the highest amount of races?
 
 ```ruby
 SELECT  COUNT (DISTINCT(raceId)) AS 'total_races',
@@ -32,7 +31,7 @@ That's impressive - 107 times F1 world championship took place in Italy, and onl
 
 [HERE](https://public.tableau.com/app/profile/nadezhda.usalko/viz/F1RussianGP/TotalF1RacesbyCountry1950-2024) is a link to Tableau Dashboard.
 
-We all heard of the drivers who made history in F1, how many victories they actually had?
+2. We all heard of the drivers who made history in F1, how many victories they actually had?
 
 ```ruby
 SELECT results.driverId,
@@ -55,7 +54,7 @@ The first line of output shows Lewis Hamilton with his outstanding 104 victories
 
 
 
-Let's get more specific of the area we want to research. Between 2014 - 2021 there used to be a regular Russian GP. What about victories on Sochi Autodrom Circuit?
+3. Let's get more specific of the area we want to research. Between 2014 - 2021 there used to be a regular Russian GP. What about victories on Sochi Autodrom Circuit?
 ```ruby
 SELECT  COUNT(results.driverId) AS number_of_victories,
 	results.position,
@@ -84,7 +83,7 @@ Lewis Hamilton, Valtteri Bottas and Nico Rosberg are confident winners.
 
 
 
-The fastest lap in history of the Russian GP:
+4. The fastest lap in history of the Russian GP:
 ```ruby
 SELECT MIN(lap_times.time) AS 'the_fastest_lap',
 	lap_times.driverId,
@@ -107,8 +106,7 @@ Output:
 1:35:761 is a record lap speed set by Lewis Hamilton.
 
 
-
-It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop duration on Sochi Autodrom Circuit by year:
+5. It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop duration on Sochi Autodrom Circuit by year:
 ```ruby
 SELECT AVG(pit_stops.duration) AS average_pit_stop_duration,
 	circuits.name AS circuit_name,
