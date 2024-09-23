@@ -1,4 +1,4 @@
-# $\color{red}{\textsf{Formula-1-World-Championship-1950-2024}}$
+# $\color{red}{\textsf{Formula-1-World-Championship-1950-2024}}$ :red_car:
 
 *Content:*
 The dataset consists of all information on the Formula 1 races, drivers, constructors, qualifying, circuits, lap times, pit stops, championships from 1950 till the latest 2024 season.
@@ -25,6 +25,7 @@ ORDER BY number_of_victories DESC
 LIMIT 10
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/b3300d89-819b-476f-80ee-6acc5ffa6e0d)
 
 The first line of output shows Lewis Hamilton with his outstanding 104 victories, followed by legendary Michael Schumacher with 91.
@@ -53,13 +54,14 @@ GROUP BY results.driverId
 ORDER BY number_of_victories DESC
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/63913608-c6be-4f98-82cd-cb2b223fd677)
 
 Lewis Hamilton, Valtteri Bottas and Nico Rosberg are confident winners.
 
 
 
-The fastest lap at Russian GP:
+The fastest lap in history of the Russian GP:
 ```
 SELECT MIN(lap_times.time) AS 'the_fastest_lap',
 	lap_times.driverId,
@@ -76,13 +78,14 @@ JOIN circuits
 WHERE circuits.country = 'Russia'
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/70558945-a9cf-43b0-8a6c-043fa8163f1c)
 
-1:35:761 is a record lap speed,set by Lewis Hamilton.
+1:35:761 is a record lap speed set by Lewis Hamilton.
 
 
 
-It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop time on Sochi Autodrom Circuit by year:
+It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop duration on Sochi Autodrom Circuit by year:
 ```
 SELECT AVG(pit_stops.duration) AS average_pit_stop_duration,
 	circuits.name AS circuit_name,
@@ -97,7 +100,9 @@ WHERE circuits.country = 'Russia'
 GROUP BY pit_stops.raceId
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/00785a40-1cb5-4aea-82d9-f33a8922bdc0)
 
 
-
+Data can tell us a lot of stories and I hope my research was interesting. 
+Feel free to [follow me on Linked-In](https://www.linkedin.com/in/Nadia-usalko/).
