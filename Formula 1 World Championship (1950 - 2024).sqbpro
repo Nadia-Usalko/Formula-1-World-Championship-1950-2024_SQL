@@ -1,40 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/nadia/Downloads/archive (1).zip" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="2939"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:maincircuits"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="circuits" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="82"/><column index="2" value="123"/><column index="3" value="297"/><column index="4" value="173"/><column index="5" value="100"/><column index="6" value="72"/><column index="7" value="81"/><column index="8" value="52"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructor_results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="191"/><column index="2" value="65"/><column index="3" value="128"/><column index="4" value="64"/><column index="5" value="63"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructor_standings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="214"/><column index="2" value="65"/><column index="3" value="128"/><column index="4" value="64"/><column index="5" value="80"/><column index="6" value="117"/><column index="7" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructors" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="128"/><column index="2" value="178"/><column index="3" value="208"/><column index="4" value="119"/><column index="5" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="driver_standings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="165"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="64"/><column index="5" value="80"/><column index="6" value="117"/><column index="7" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="drivers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="79"/><column index="2" value="162"/><column index="3" value="76"/><column index="4" value="52"/><column index="5" value="140"/><column index="6" value="196"/><column index="7" value="91"/><column index="8" value="132"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="lap_times" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="5" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="79"/><column index="3" value="52"/><column index="4" value="80"/><column index="5" value="81"/><column index="6" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="pit_stops" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="79"/><column index="3" value="52"/><column index="4" value="52"/><column index="5" value="73"/><column index="6" value="83"/><column index="7" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="races" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="52"/><column index="3" value="61"/><column index="4" value="82"/><column index="5" value="231"/><column index="6" value="91"/><column index="7" value="73"/><column index="8" value="300"/><column index="9" value="88"/><column index="10" value="88"/><column index="11" value="88"/><column index="12" value="88"/><column index="13" value="88"/><column index="14" value="88"/><column index="15" value="101"/><column index="16" value="101"/><column index="17" value="109"/><column index="18" value="109"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="78"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="128"/><column index="5" value="76"/><column index="6" value="52"/><column index="7" value="80"/><column index="8" value="117"/><column index="9" value="128"/><column index="10" value="64"/><column index="11" value="52"/><column index="12" value="96"/><column index="13" value="116"/><column index="14" value="100"/><column index="15" value="52"/><column index="16" value="141"/><column index="17" value="153"/><column index="18" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="seasons" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sprint_results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="78"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="128"/><column index="5" value="76"/><column index="6" value="52"/><column index="7" value="80"/><column index="8" value="117"/><column index="9" value="128"/><column index="10" value="64"/><column index="11" value="52"/><column index="12" value="84"/><column index="13" value="116"/><column index="14" value="100"/><column index="15" value="141"/><column index="16" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="status" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="82"/><column index="2" value="138"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="RussianGP - total races">/*
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/nadia/Downloads/archive (1).zip" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="2939"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:maincircuits"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="circuits" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="82"/><column index="2" value="123"/><column index="3" value="297"/><column index="4" value="173"/><column index="5" value="100"/><column index="6" value="72"/><column index="7" value="81"/><column index="8" value="52"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructor_results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="191"/><column index="2" value="65"/><column index="3" value="128"/><column index="4" value="64"/><column index="5" value="63"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructor_standings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="214"/><column index="2" value="65"/><column index="3" value="128"/><column index="4" value="64"/><column index="5" value="80"/><column index="6" value="117"/><column index="7" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="constructors" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="128"/><column index="2" value="178"/><column index="3" value="208"/><column index="4" value="119"/><column index="5" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="driver_standings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="165"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="64"/><column index="5" value="80"/><column index="6" value="117"/><column index="7" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="drivers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="79"/><column index="2" value="162"/><column index="3" value="76"/><column index="4" value="52"/><column index="5" value="140"/><column index="6" value="196"/><column index="7" value="91"/><column index="8" value="132"/><column index="9" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="lap_times" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="5" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="79"/><column index="3" value="52"/><column index="4" value="80"/><column index="5" value="81"/><column index="6" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="pit_stops" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="79"/><column index="3" value="52"/><column index="4" value="52"/><column index="5" value="73"/><column index="6" value="83"/><column index="7" value="116"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="races" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="52"/><column index="3" value="61"/><column index="4" value="82"/><column index="5" value="231"/><column index="6" value="91"/><column index="7" value="73"/><column index="8" value="300"/><column index="9" value="88"/><column index="10" value="88"/><column index="11" value="88"/><column index="12" value="88"/><column index="13" value="88"/><column index="14" value="88"/><column index="15" value="101"/><column index="16" value="101"/><column index="17" value="109"/><column index="18" value="109"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="78"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="128"/><column index="5" value="76"/><column index="6" value="52"/><column index="7" value="80"/><column index="8" value="117"/><column index="9" value="128"/><column index="10" value="64"/><column index="11" value="52"/><column index="12" value="96"/><column index="13" value="116"/><column index="14" value="100"/><column index="15" value="52"/><column index="16" value="141"/><column index="17" value="153"/><column index="18" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="seasons" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sprint_results" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="78"/><column index="2" value="65"/><column index="3" value="79"/><column index="4" value="128"/><column index="5" value="76"/><column index="6" value="52"/><column index="7" value="80"/><column index="8" value="117"/><column index="9" value="128"/><column index="10" value="64"/><column index="11" value="52"/><column index="12" value="84"/><column index="13" value="116"/><column index="14" value="100"/><column index="15" value="141"/><column index="16" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="status" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="82"/><column index="2" value="138"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="Total Races by Country">/*
 Created by: Nadia Usalko
 Date: 9-16-2024
-Description: Total F1 races
+Description: Total F1 races by country
 */
 
+SELECT COUNT (DISTINCT(raceId)) AS 'total_races',
+		country
+FROM races
+JOIN circuits
+	ON races.circuitId = circuits.circuitId
+GROUP BY country
+ORDER BY total_races DESC</sql><sql name="RussianGP - total races">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: Total Russian GP races
+*/
+
 SELECT COUNT (DISTINCT(raceId)) AS 'total_races'
 FROM races
-WHERE name = 'Russian Grand Prix'</sql><sql name="2020 Winners">/*
-Created by: Nadia Usalko
-Date: 9-16-2024
-Description: Winners of F1 races in 2020 by date
-*/
-
-SELECT results.position,
-		circuits.name AS circuit_name,
-		circuits.country,
-		circuits.location,
-		races.date,
-		results.driverId,
-		drivers.forename AS driver_first_name,
-		drivers.surname AS driver_last_name
-FROM results
-JOIN races
-	ON results.raceId = races.raceId
-JOIN drivers
-	ON results.driverId = drivers.driverId
-JOIN circuits
-	ON races.circuitId = circuits.circuitId
-WHERE races.year = 2020
-	AND results.position = 1
-ORDER BY races.date</sql><sql name="Total Number of Victories by Driver">/*
-Created by: Nadia Usalko
-Date: 9-16-2024
-Description: How many victories had all F1 drivers?
-*/
-
+WHERE name = 'Russian Grand Prix'</sql><sql name="Total Number of Victories by Driver">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: How many victories had all F1 drivers?
+*/
+
 SELECT results.driverId,
 		COUNT(results.position) AS number_of_victories,
 		drivers.forename AS driver_first_name,
@@ -44,12 +33,12 @@ JOIN drivers
 	ON results.driverId = drivers.driverId
 WHERE results.position = 1
 GROUP BY results.driverId
-ORDER BY number_of_victories DESC</sql><sql name="Winners of RussianGP by Driver">/*
-Created by: Nadia Usalko
-Date: 9-16-2024
-Description: Winners of Russian GP in 2014-2021
-*/
-
+ORDER BY number_of_victories DESC</sql><sql name="Winners of RussianGP by Driver">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: Winners of Russian GP in 2014-2021
+*/
+
 SELECT  COUNT(results.driverId) AS number_of_victories,
 		results.position,
 		results.driverId,
@@ -67,12 +56,12 @@ JOIN circuits
 WHERE races.name = 'Russian Grand Prix'
 	AND position = 1
 GROUP BY results.driverId
-ORDER BY number_of_victories DESC</sql><sql name="Fastest Lap Time RussianGP">/*
-Created by: Nadia Usalko
-Date: 9-16-2024
-Description: The fastest lap in history of the Russian GP
-*/
-
+ORDER BY number_of_victories DESC</sql><sql name="Fastest Lap Time RussianGP">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: The fastest lap in history of the Russian GP
+*/
+
 SELECT MIN(lap_times.time) AS 'the_fastest_lap',
 	lap_times.driverId,
 	drivers.forename AS driver_first_name,
@@ -85,12 +74,35 @@ JOIN races
 	ON lap_times.raceId = races.raceId
 JOIN circuits
 	ON races.circuitId = circuits.circuitId
-WHERE circuits.country = 'Russia'</sql><sql name="Average Pit Stop Duration RussianGP">/*
-Created by: Nadia Usalko
-Date: 9-16-2024
-Description: Average pit-stop duration on Sochi Autodrom Circuit by year
-*/
-
+WHERE circuits.country = 'Russia'</sql><sql name="2020 Winners">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: Winners of F1 races in 2020 by date
+*/
+
+SELECT results.position,
+		circuits.name AS circuit_name,
+		circuits.country,
+		circuits.location,
+		races.date,
+		results.driverId,
+		drivers.forename AS driver_first_name,
+		drivers.surname AS driver_last_name
+FROM results
+JOIN races
+	ON results.raceId = races.raceId
+JOIN drivers
+	ON results.driverId = drivers.driverId
+JOIN circuits
+	ON races.circuitId = circuits.circuitId
+WHERE races.year = 2020
+	AND results.position = 1
+ORDER BY races.date</sql><sql name="Average Pit Stop Duration RussianGP">/*
+Created by: Nadia Usalko
+Date: 9-16-2024
+Description: Average pit-stop duration on Sochi Autodrom Circuit by year
+*/
+
 SELECT AVG(pit_stops.duration) AS average_pit_stop_duration,
 	circuits.name AS circuit_name,
 	pit_stops.raceId,
@@ -101,4 +113,4 @@ JOIN races
 JOIN circuits
 	ON races.circuitId = circuits.circuitId
 WHERE circuits.country = 'Russia'
-GROUP BY pit_stops.raceId</sql><current_tab id="2"/></tab_sql></sqlb_project>
+GROUP BY pit_stops.raceId</sql><current_tab id="0"/></tab_sql></sqlb_project>
