@@ -11,11 +11,11 @@ _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-wo
 ### 
 We all heard of the drivers who made history in F1, how many victories they actually had?
 
-```
-SELECT  results.driverId,
-	COUNT(results.position) AS number_of_victories,
-	drivers.forename AS driver_first_name,
-	drivers.surname AS driver_last_name
+```ruby
+SELECT results.driverId,
+       COUNT(results.position) AS number_of_victories,
+       drivers.forename AS driver_first_name,
+       drivers.surname AS driver_last_name
 FROM results
 JOIN drivers
 	ON results.driverId = drivers.driverId
@@ -33,14 +33,14 @@ The first line of output shows Lewis Hamilton with his outstanding 104 victories
 
 
 Let's get more specific of the area we want to research. Between 2014 - 2021 there used to be a regular Russian GP. What about victories on Sochi Autodrom Circuit?
-```
+```ruby
 SELECT  COUNT(results.driverId) AS number_of_victories,
-		results.position,
-		results.driverId,
-		drivers.forename AS driver_first_name,
-		drivers.surname AS driver_last_name,
-		races.circuitId,
-		circuits.name AS circuit_name
+	results.position,
+	results.driverId,
+	drivers.forename AS driver_first_name,
+	drivers.surname AS driver_last_name,
+	races.circuitId,
+	circuits.name AS circuit_name
 FROM results
 JOIN races	
 	ON results.raceId = races.raceId
