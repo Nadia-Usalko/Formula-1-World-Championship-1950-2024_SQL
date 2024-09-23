@@ -62,7 +62,7 @@ Lewis Hamilton, Valtteri Bottas and Nico Rosberg are confident winners.
 
 
 The fastest lap in history of the Russian GP:
-```
+```ruby
 SELECT MIN(lap_times.time) AS 'the_fastest_lap',
 	lap_times.driverId,
 	drivers.forename AS driver_first_name,
@@ -86,7 +86,7 @@ Output:
 
 
 It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop duration on Sochi Autodrom Circuit by year:
-```
+```ruby
 SELECT AVG(pit_stops.duration) AS average_pit_stop_duration,
 	circuits.name AS circuit_name,
 	pit_stops.raceId,
