@@ -14,7 +14,6 @@ _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-wo
 -Tableau Public
 
 
-
 1. F1 races are taking place worldwide, let's see how many races took place by country, and which country was lucky to host the highest amount of races?
 
 ```ruby
@@ -30,6 +29,7 @@ ORDER BY total_races DESC
 That's impressive - 107 times F1 world championship took place in Italy, and only once in Marocco.
 
 [HERE](https://public.tableau.com/app/profile/nadezhda.usalko/viz/F1RussianGP/TotalF1RacesbyCountry1950-2024) is a link to Tableau Dashboard.
+
 
 2. We all heard of the drivers who made history in F1, how many victories they actually had?
 
@@ -51,7 +51,6 @@ Output:
 ![image](https://github.com/user-attachments/assets/b3300d89-819b-476f-80ee-6acc5ffa6e0d)
 
 The first line of output shows Lewis Hamilton with his outstanding 104 victories, followed by legendary Michael Schumacher with 91.
-
 
 
 3. Let's get more specific of the area we want to research. Between 2014 - 2021 there used to be a regular Russian GP. What about victories on Sochi Autodrom Circuit?
@@ -80,7 +79,6 @@ Output:
 ![image](https://github.com/user-attachments/assets/63913608-c6be-4f98-82cd-cb2b223fd677)
 
 Lewis Hamilton, Valtteri Bottas and Nico Rosberg are confident winners.
-
 
 
 4. The fastest lap in history of the Russian GP:
