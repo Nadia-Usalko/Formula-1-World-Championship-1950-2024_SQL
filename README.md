@@ -28,8 +28,6 @@ ORDER BY total_races DESC
 
 That's impressive - 107 times F1 world championship took place in Italy, and only once in Marocco.
 
-[HERE](https://public.tableau.com/app/profile/nadezhda.usalko/viz/F1RussianGP/TotalF1RacesbyCountry1950-2024) is a link to Tableau Dashboard.
-
 
 2. We all heard of the drivers who made history in F1, how many victories they actually had?
 
@@ -122,7 +120,8 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/00785a40-1cb5-4aea-82d9-f33a8922bdc0)
 
-![image](https://github.com/user-attachments/assets/19233d84-6cf8-4987-9675-10f51b1f4013)
+![image](https://github.com/user-attachments/assets/667058bb-d016-4e3e-9718-c65249f338a0)
+
 
 
 Data can tell us a lot of stories and I hope my research was interesting. 
