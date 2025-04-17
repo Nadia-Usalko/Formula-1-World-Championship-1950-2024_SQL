@@ -16,7 +16,7 @@ _Retrieved: 9/14/2024 from https://www.kaggle.com/datasets/rohanrao/formula-1-wo
 
 1. F1 races are taking place worldwide, let's see how many races took place by country, and which country was lucky to host the highest amount of races?
 
-```ruby
+```sql
 SELECT  COUNT (DISTINCT(raceId)) AS 'total_races',
 	country
 FROM races
@@ -32,7 +32,7 @@ That's impressive - 107 times F1 world championship took place in Italy, and onl
 
 2. We all heard of the drivers who made history in F1, how many victories they actually had?
 
-```ruby
+```sql
 SELECT results.driverId,
        COUNT(results.position) AS number_of_victories,
        drivers.forename AS driver_first_name,
@@ -53,7 +53,7 @@ The first line of output shows Lewis Hamilton with his outstanding 104 victories
 
 
 3. Let's get more specific of the area we want to research. Between 2014 - 2021 there used to be a regular Russian GP. What about victories on Sochi Autodrom Circuit?
-```ruby
+```sql
 SELECT  COUNT(results.driverId) AS number_of_victories,
 	results.position,
 	results.driverId,
@@ -81,7 +81,7 @@ Lewis Hamilton, Valtteri Bottas and Nico Rosberg are confident winners.
 
 
 4. The fastest lap in history of the Russian GP:
-```ruby
+```sql
 SELECT MIN(lap_times.time) AS 'the_fastest_lap',
 	lap_times.driverId,
 	drivers.forename AS driver_first_name,
@@ -104,7 +104,7 @@ Output:
 
 
 5. It can be important for constructors and mechanichs to analyze the circuit and its specifics. Let's calculate average pit-stop duration on Sochi Autodrom Circuit by year:
-```ruby
+```sql
 SELECT AVG(pit_stops.duration) AS average_pit_stop_duration,
 	circuits.name AS circuit_name,
 	pit_stops.raceId,
